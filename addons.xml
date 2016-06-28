@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><addons>
+
+    <addon id="script.zfs.checker" name="ZFS Checker" provider-name="merlink" version="0.0.6">
+        <requires>
+            <import addon="xbmc.python" version="2.14.0"/>
+        </requires>
+        <extension library="addon.py" point="xbmc.python.script"/>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">Check ZFS Status</summary>
+            <description lang="en">Checks the healths of zfs regularly</description>
+            <license>GNU General Public License, v2</license>
+            <language/>
+            <source>https://github.com/merlink01/KodiPlugins/tree/master/script.zfs.checker</source>
+            <datadir zip="true">https://github.com/merlink01/KodiPlugins/raw/master/releases</datadir>
+        </extension>
+    </addon>
+
+    <addon id="script.mvg.departures" name="MVG Departure Checker" provider-name="merlink" version="0.0.5">
+        <requires>
+            <import addon="xbmc.python" version="2.14.0"/>
+        </requires>
+        <extension library="addon.py" point="xbmc.python.script"/>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">Check MVG Departures</summary>
+            <description lang="en">Gets the list of departures from your MVG Station</description>
+            <license>GNU General Public License, v2</license>
+            <language/>
+            <source>https://github.com/merlink01/KodiPlugins/tree/master/script.mvg.departures</source>
+            <datadir zip="true">https://github.com/merlink01/KodiPlugins/raw/master/releases</datadir>
+        </extension>
+    </addon>
+
+    <addon id="script.logviewer" name="Log Viewer" provider-name="merlink" version="0.0.1">
+        <requires>
+            <import addon="xbmc.python" version="2.14.0"/>
+        </requires>
+        <extension library="addon.py" point="xbmc.python.script"/>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">View the Logfile of Kodi</summary>
+            <description lang="en">View the Logfile of Kodi</description>
+            <license>GNU General Public License, v2</license>
+            <language/>
+            <source>https://github.com/merlink01/KodiPlugins/tree/master/script.logviewer</source>
+            <datadir zip="true">https://github.com/merlink01/KodiPlugins/raw/master/releases</datadir>
+        </extension>
+    </addon>
+
+    <addon id="repository.merlink.kodi-addons" name="Merlinks Unofficial Add-on Repository" provider-name="merlink" version="0.0.3">
+        <extension name="Merlinks Unofficial Add-on Repository" point="xbmc.addon.repository"/>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary>Kodi Addons from Merlink</summary>
+            <description>Unofficial Addons from Merlink</description>
+            <license>GNU General Public License, v2</license>
+            <language/>
+            <source>https://github.com/jeffreykira/repo-ktv/tree/master/repository.merlink.kodi-addons</source>
+            <datadir zip="true">https://github.com/jeffreykira/repo-ktv/raw/master/releases</datadir>
+        </extension>
+    </addon>
+</addons>

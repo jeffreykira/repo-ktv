@@ -1,0 +1,24 @@
+0.0.6
+-Debuged getSetting Problem
+-Added Logging
+
+0.0.5
+-Added Possibility to disable Notifications
+-Debuged Error Message
+
+0.0.4
+-Created Errormessage in the Script Program if something went wrong
+
+0.0.3
+-Bugfixes
+
+0.0.2
+-Bugfixes
+
+0.0.1
+- Added Script functionality
+- This Program works now as Service and Script
+
+0.0.0
+-Complete rebuild and change
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Main">
+        <setting label="Station" type="text" id="station"/>
+        <setting label="Mintime" type="slider" id="mintime" subsetting="true" default="1" range="0,1,500" option="int" />
+        <setting label="Maxtime" type="slider" id="maxtime" subsetting="true" default="30" range="0,1,500" option="int" />
+    </category>
+</settings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Notification Service">
+        <setting label="Disabled" type="bool" id="zfs.disabled" default="false"/>
+        <setting label="Message Timeout" type="slider" id="zfs.timeout" subsetting="true" default="5" range="1,1,100" option="int" enable="eq(-1,false)"/>
+        <setting label="Sleeptime" type="slider" id="zfs.sleeptime" subsetting="true" default="100" range="10,10,1000" option="int" enable="eq(-2,false)"/>
+    </category>
+</settings>
