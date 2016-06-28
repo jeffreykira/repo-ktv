@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><addons>
 
-    <addon id="script.zfs.checker" name="ZFS Checker" provider-name="merlink" version="0.0.6">
+    <!-- <addon id="script.zfs.checker" name="ZFS Checker" provider-name="merlink" version="0.0.6">
         <requires>
             <import addon="xbmc.python" version="2.14.0"/>
         </requires>
@@ -30,9 +30,9 @@
             <source>https://github.com/merlink01/KodiPlugins/tree/master/script.mvg.departures</source>
             <datadir zip="true">https://github.com/merlink01/KodiPlugins/raw/master/releases</datadir>
         </extension>
-    </addon>
+    </addon> -->
 
-    <addon id="script.logviewer" name="Log Viewer" provider-name="merlink" version="0.0.1">
+    <!-- <addon id="script.logviewer" name="Log Viewer" provider-name="merlink" version="0.0.1">
         <requires>
             <import addon="xbmc.python" version="2.14.0"/>
         </requires>
@@ -46,7 +46,7 @@
             <source>https://github.com/merlink01/KodiPlugins/tree/master/script.logviewer</source>
             <datadir zip="true">https://github.com/merlink01/KodiPlugins/raw/master/releases</datadir>
         </extension>
-    </addon>
+    </addon> -->
 
     <addon id="repository.merlink.kodi-addons" name="Merlinks Unofficial Add-on Repository" provider-name="merlink" version="0.0.3">
         <extension name="Merlinks Unofficial Add-on Repository" point="xbmc.addon.repository"/>
