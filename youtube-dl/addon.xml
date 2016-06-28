@@ -17,9 +17,9 @@
         <!-- <source>http://github.com/ruuk/script.module.youtube.dl</source> -->
     </extension>
     <extension point="xbmc.addon.repository"
-  		  name="xbmc-repo-ktv addon repository">
-  		  <info>https://raw.githubusercontent.com/jeffreykira/repo-ktv/master/addons.xml</info>
-  		  <checksum>https://raw.githubusercontent.com/jeffreykira/repo-ktv/master/addons.xml.md5</checksum>
-  		  <datadir zip="true">https://github.com/jeffreykira/repo-ktv/raw/master/youtube-dl</datadir>
-  	</extension>
+        name="xbmc-repo-ktv addon repository">
+        <info>https://raw.githubusercontent.com/jeffreykira/repo-ktv/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jeffreykira/repo-ktv/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/jeffreykira/repo-ktv/raw/master/youtube-dl</datadir>
+    </extension>
 </addon>
